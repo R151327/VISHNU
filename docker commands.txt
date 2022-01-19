@@ -1,0 +1,49 @@
+
+------Docker commands
+yum update all -y
+ which docker
+which chef
+docker -v
+docker --version
+service docker status
+docker info
+service docker start
+service docker status
+docker info
+docker images
+docker ps
+docker ps -a
+hub.docker.com
+ubuntu
+docker run -it ubuntu  /bin/bash
+cat /etc/os-release
+exit
+docker images
+docker run -it ubuntu /bin/bash
+exit
+docker ps -a
+docker images
+docker run -it centos /bin/bash
+--------------------------------------------------------------
+docker search ubuntu(for searching)
+docker run -it --name (new name) ubuntu /bin/bash--(for renaming)
+docker start (newname)---to start
+docker attach (newname)--(for attaching)
+docker stop (newname)---to stop
+docker rm (newname)----for removing
+docker ps -a---checking
+----------------------------------------------------------------
+docker run --name (newname) -it ubuntu /bin/bash
+ls
+cd tmp
+touch filename
+ls
+exit
+docker diff sony
+
+
+
+
+
+
+
